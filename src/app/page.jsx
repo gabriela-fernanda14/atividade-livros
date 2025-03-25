@@ -3,6 +3,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import HeroBanner from "./components/banner";
 import NewsLetter from "./components/newsletter";
+import Destaques from "./components/destaques";
 
 
 export default function Home() {
@@ -155,6 +156,7 @@ export default function Home() {
 
       {/* FEATURED BOOKS SECTION */}
       
+      <Destaques/>
 
       {/* CATEGORIES SECTION */}
       <section className={styles.categoriesSection}>
